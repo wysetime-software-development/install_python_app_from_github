@@ -1,5 +1,6 @@
 # Install Python App From Github
 
+
 **Convert local python project**
 
 - Ensure the script is executable:
@@ -26,4 +27,19 @@ chmod +x create_executable_git.sh
 
 ```
 ./create_executable_git.sh https://github.com/wysetime-software-development/install_python_app_from_github.git
+```
+---
+
+**Uninstall python project**
+
+- Ensure the script is executable:
+
+```
+chmod +x uninstall_python_app.sh
+```
+
+- Run the script:
+
+```
+./uninstall_python_app.sh
 ```
